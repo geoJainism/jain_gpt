@@ -1,0 +1,27 @@
+# ✅ requirements.txt for Jain GPT project
+
+# Core language & interface
+streamlit>=1.31.0
+langchain>=0.1.14
+
+# Groq API client for LangChain
+langchain-groq>=0.0.5
+
+# Sentence Transformers for Hindi multilingual embeddings
+sentence-transformers>=2.2.2
+
+# FAISS for vector search
+faiss-cpu>=1.7.4
+
+# PDF OCR support
+pytesseract>=0.3.10
+pdf2image>=1.16.3
+
+# Image processing backend
+Pillow>=9.5.0
+
+# PDF file support
+poppler-utils  # Linux only — system package
+
+# Optional: if you want HuggingFace login support later
+# huggingface-hub>=0.19.4
