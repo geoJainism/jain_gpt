@@ -25,3 +25,21 @@ poppler-utils  # Linux only — system package
 
 # Optional: if you want HuggingFace login support later
 # huggingface-hub>=0.19.4
+
+# new requirements
+google-generativeai
+python-dotenv
+langchain-community
+langchain-google-genai
+huggingface-hub
+langchain_huggingface
+unstructured
+tiktoken
+pinecone-client
+pypdf
+langserve
+fastapi
+uvicorn
+bs4
+chromadb
+faiss-cpu # one type of databases to store embedding
