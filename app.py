@@ -1,6 +1,6 @@
 # app.py
 import streamlit as st
-from jain_gpt.retrieval import query_jain_gpt
+from retrieval.retrieval import query_jain_gpt
 
 st.set_page_config(page_title="Jain GPT", layout="centered")
 st.title("☸️ Jain GPT")
